@@ -3,4 +3,4 @@ Network Monitoring Tool based on LAMP
 
 # Project Visit
 
-![](visits/project-visit.gif)
+![](Gif/project-visit.gif)
