@@ -1,0 +1,48 @@
+<html>
+    
+    <head>
+        <title>Data</title>
+    </head>
+    
+    <h2><center>Select the protocol to display data</center></h2>
+    
+    <link rel="stylesheet" href="style_protocol.css">     
+    
+        
+    <form action = "handler.php" class="box" method = "POST">
+        <h2>Protocols</h2>
+        
+        <label for = "tcp">TCP</label>
+        <input name = "protocol" type = "Radio" value = "tcp">
+        
+        <label for = "udp">UDP</label>
+        <input name = "protocol" type = "Radio" value = "udp">
+        
+        <label for = "arp">ARP</label>
+        <input name = "protocol" type = "Radio" value = "arp">
+        
+        <h2>Data</h2>
+
+        <select name="menu">
+            
+            <option value="all">All Packets</option>
+            <option value="sip">SIP</option>
+            <option value="dip">DIP</option>
+            <option value="smac">SMAC</option>
+            <option value="dmac">DMAC</option>
+            <option value="sport">SPort</option>
+            <option value="dport">DPort</option>
+            <option value="packetLength">Packet Length</option>
+            <option value="timestamp">Time Stamp</option>
+            
+        </select>
+        
+        <input type = "submit" value = "Submit">
+
+    </form>
+        
+    </body>
+    
+    <footer>Developed by SHLOK KASHYAP</footer>
+    
+</html>
